@@ -19,3 +19,39 @@ input{
     font-weight: 700;
     padding-bottom: 2rem;
 }
+.container{
+    background-image: linear-gradient(to bottom, #290036, rgb(128, 0, 128));
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+.container2{
+    background-image: linear-gradient(to bottom, rgb(128, 0, 128), #290036);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: auto;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.container25{
+    display: flex;
+    flex-direction: row;
+
+}
+.container3{
+    background-image: linear-gradient(blue,darkblue);
+    border-radius: 10px;
+    margin: 1.4rem;
+    width: 100%;
+}
+.containerespt{
+    background-image: linear-gradient(lightblue,aqua);
+    margin: 8px;
+}
+.boxtext{
+    width: 100%;
+    font-size: 1.6rem;
+    
+}
